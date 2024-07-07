@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+      <table >
+        <caption>This is caption</caption>
+        <thead>
+        <tr>
+            <th rowspan="2">Maths</th>
+            <th colspan="4">Subjects of 6th sem</th>
+            <tr>
+            <td>Bishal</td>
+            <td>Bishal</td>
+            <td>Bishal</td>
+            <td>Bishal</td>
+         </tr>
+         <tr>
+            <th>Science</th>
+            <td>Saroj</td>
+            <td>Saroj</td>
+            <td>Saroj</td>
+            <td>Saroj</td>
+         </tr>
+         <tr>
+            <th>Science</th>
+            <td>Saroj</td>
+            <td>Saroj</td>
+            <td>Saroj</td>
+            <td>Saroj</td>
+         </tr>
+      </tr>
+    </thead>
+    </table>
+  </body>
+  <script>
+    let b=document.body.firstElementChild
+    console.log(b)
+    console.log(b.rows)
+    console.log(b.caption)
+    console.log(b.tHead)
+    console.log(b.tBodies)
+    console.log(b.tFoot)
+    // console.log(b)
+    console.log(b.rows[1].sectionRowIndex.cellindex)
+    console.log(b.rows[2].rowIndex)
+    console.log(b.cellindex)
+  </script>
+</html>
